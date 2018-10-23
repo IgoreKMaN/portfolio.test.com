@@ -1,8 +1,19 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333fff;
-  background-color: #444;
-  margin: 20px;
+body .header {
+  height: 400px;
+  position: relative;
+}
+body .header .col1-2 {
+  background-color: #2b2c2c;
+  width: 100%;
+  line-height: 400px;
+  text-align: center;
+}
+body .header .col1-2 img {
+  vertical-align: middle;
+  border-radius: 100px;
+}
+body .header .col-right-noteven {
+  background-color: #2d2e2e;
 }
 
 /*# sourceMappingURL=style.css.map */

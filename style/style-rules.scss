@@ -1,9 +1,25 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333fff;
+body{	
+	.header{
+		height: 400px;
+		position: relative;
+		.col1-2{
+			background-color: #2b2c2c;
+			width: 100%;
+			line-height:400px;
+			text-align: center;
+			img{
+				vertical-align: middle;
+				border-radius: 100px;
+			}
+			
+		}
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: #444;
-  margin: 20px;
+	
+
+	.col-right-noteven{
+		background-color: #2d2e2e;
+	}
+	}
+
+	
 }

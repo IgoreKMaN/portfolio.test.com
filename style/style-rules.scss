@@ -1,23 +1,36 @@
 body{	
 	.header{
-		height: 400px;
-		position: relative;
-		.col1-2{
-			background-color: #2b2c2c;
-			width: 100%;
-			line-height:400px;
+		height: 100vh;
+		background-color: #2b2c2c;
+		.even-noteven,
+		.noteven-even{
+			
+		}
+		.even-noteven{
+			
 			text-align: center;
 			img{
-				vertical-align: middle;
-				border-radius: 100px;
+				border-radius: 100px; 
 			}
 			
 		}
+		.noteven-even{
+			background-color: #2d2e2e;
+			margin: 20px;
 
-	
+			h2{
+				margin: 0;
+				&.name{
+					color: #fff;
+				}
+				&.last-name{
+					color: #e0a80d;
+				}
+		}
+		p{
+				color: #a4a5a6;
 
-	.col-right-noteven{
-		background-color: #2d2e2e;
+			}
 	}
 	}
 

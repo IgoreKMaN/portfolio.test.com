@@ -1,19 +1,28 @@
 body .header {
-  height: 400px;
-  position: relative;
-}
-body .header .col1-2 {
+  height: 100vh;
   background-color: #2b2c2c;
-  width: 100%;
-  line-height: 400px;
+}
+body .header .even-noteven {
   text-align: center;
 }
-body .header .col1-2 img {
-  vertical-align: middle;
+body .header .even-noteven img {
   border-radius: 100px;
 }
-body .header .col-right-noteven {
+body .header .noteven-even {
   background-color: #2d2e2e;
+  margin: 20px;
+}
+body .header .noteven-even h2 {
+  margin: 0;
+}
+body .header .noteven-even h2.name {
+  color: #fff;
+}
+body .header .noteven-even h2.last-name {
+  color: #e0a80d;
+}
+body .header .noteven-even p {
+  color: #a4a5a6;
 }
 
 /*# sourceMappingURL=style.css.map */

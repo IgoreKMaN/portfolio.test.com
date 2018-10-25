@@ -1,28 +1,82 @@
-body .header {
-  height: 100vh;
+body {
   background-color: #2b2c2c;
 }
-body .header .even-noteven {
-  text-align: center;
+body header {
+  height: 100vh;
 }
-body .header .even-noteven img {
-  border-radius: 100px;
+body header .container-header {
+  width: 50%;
+  height: 100%;
+  background-color: #2b2c2c;
+  float: left;
 }
-body .header .noteven-even {
+body header .container-content {
+  width: 50%;
+  height: 100%;
   background-color: #2d2e2e;
-  margin: 20px;
+  float: left;
 }
-body .header .noteven-even h2 {
+body header .wrapper-content {
+  position: relative;
+  height: 100%;
+}
+body header .wrapper-content .o-cont-absolute {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body header .wrapper-content .o-cont-absolute .bias {
+  margin-top: 20%;
+}
+body header .wrapper-content .o-section-header img {
+  width: 70%;
+  border-radius: 50%;
+}
+body header .wrapper-content .lighter {
+  background-color: #2d2e2e;
+}
+body header .wrapper-content .o-section-content {
+  height: 100vh;
+  text-align: left;
+  padding-left: 6%;
+  overflow: hidden;
+}
+body header .wrapper-content .o-section-content h2 {
   margin: 0;
+  font-size: 4rem;
+  font-weight: bold;
 }
-body .header .noteven-even h2.name {
+body header .wrapper-content .o-section-content h2.name {
   color: #fff;
 }
-body .header .noteven-even h2.last-name {
+body header .wrapper-content .o-section-content h2.last-name {
   color: #e0a80d;
 }
-body .header .noteven-even p {
-  color: #a4a5a6;
+body header .wrapper-content .o-section-content p {
+  color: #fff;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+body header .wrapper-content .o-section-content p span {
+  color: #e0a80d;
+}
+body header .wrapper-content .o-section-content .contact-details {
+  color: #fff;
+  text-align: center;
+}
+body header .wrapper-content .o-section-content .contact-details ul li {
+  font-size: 1.5em;
+}
+body header .wrapper-content .o-section-content .contact-details ul li:nth-child(2) {
+  margin-top: 10%;
+  color: #979899;
+}
+body header .wrapper-content hr {
+  border: 1px solid #404242;
+  margin-top: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

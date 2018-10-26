@@ -1,21 +1,40 @@
+$darker: #2b2c2c;
 $lighter: #2d2e2e;
 body{	
 	background-color: #2b2c2c;
+	.container-header,
+	.container-header-next{
+			width: 50%;
+			height: 100vh;
+			float: left;
+	}
+	.container-content,
+	.container-content-next{
+			width: 50%;
+			height: 100vh;
+			float: left;
+	}
+	.container-header-next,
+	.container-content-next{
+		height: 50vh;
+	}
+
+	.container-darker{
+		background-color: $darker;
+	}
+	.container-lighter{
+		background-color: $lighter;
+	}
+
+	.o-section-content{
+		position: relative;
+		z-index: 5;
+	}
+
 	header{
 		height: 100vh;
 		
-		.container-header{
-			width: 50%;
-			height: 100%;
-			background-color: #2b2c2c;
-			float: left;
-		}
-		.container-content{
-			width: 50%;
-			height: 100%;
-			background-color: $lighter;
-			float: left;
-		}
+		
 		.wrapper-content{
 			position: relative;
 			height: 100%;
@@ -34,6 +53,9 @@ body{
 						border-radius: 50%;	
 					}
 					
+				}
+				.darker{
+					background-color: $darker;
 				}
 				.lighter{
 					background-color: $lighter;
@@ -90,9 +112,27 @@ body{
 		}
 	}
 
+	
+
 	section{
-		.main-directions{
-			
+		.wrapper-content{
+			position: relative;
+			height: 100%;
+			.o-cont-absolute{
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				.bias{
+					margin-top: 20%
+				} 
+			}
+		}
+
+		&.main-directions{
+			.lighter{
+					background-color: $lighter;
+				}
 		}
 	}
 }

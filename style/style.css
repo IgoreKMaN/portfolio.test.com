@@ -1,20 +1,34 @@
 body {
   background-color: #2b2c2c;
 }
+body .container-header,
+body .container-header-next {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+body .container-content,
+body .container-content-next {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+body .container-header-next,
+body .container-content-next {
+  height: 50vh;
+}
+body .container-darker {
+  background-color: #2b2c2c;
+}
+body .container-lighter {
+  background-color: #2d2e2e;
+}
+body .o-section-content {
+  position: relative;
+  z-index: 5;
+}
 body header {
   height: 100vh;
-}
-body header .container-header {
-  width: 50%;
-  height: 100%;
-  background-color: #2b2c2c;
-  float: left;
-}
-body header .container-content {
-  width: 50%;
-  height: 100%;
-  background-color: #2d2e2e;
-  float: left;
 }
 body header .wrapper-content {
   position: relative;
@@ -32,6 +46,9 @@ body header .wrapper-content .o-cont-absolute .bias {
 body header .wrapper-content .o-section-header img {
   width: 70%;
   border-radius: 50%;
+}
+body header .wrapper-content .darker {
+  background-color: #2b2c2c;
 }
 body header .wrapper-content .lighter {
   background-color: #2d2e2e;
@@ -77,6 +94,22 @@ body header .wrapper-content .o-section-content .contact-details ul li:nth-child
 body header .wrapper-content hr {
   border: 1px solid #404242;
   margin-top: 20%;
+}
+body section .wrapper-content {
+  position: relative;
+  height: 100%;
+}
+body section .wrapper-content .o-cont-absolute {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body section .wrapper-content .o-cont-absolute .bias {
+  margin-top: 20%;
+}
+body section.main-directions .lighter {
+  background-color: #2d2e2e;
 }
 
 /*# sourceMappingURL=style.css.map */

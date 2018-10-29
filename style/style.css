@@ -17,15 +17,21 @@ body .container-header-next,
 body .container-content-next {
   height: 50vh;
 }
-body .container-darker {
+body .container-darker, body .darker {
   background-color: #2b2c2c;
 }
-body .container-lighter {
+body .container-lighter, body lighter {
   background-color: #2d2e2e;
 }
-body .o-section-content {
+body .pos5 {
   position: relative;
-  z-index: 5;
+  z-index: 20;
+}
+body .wrapper-content {
+  color: #fff;
+}
+body h2 {
+  margin: 0;
 }
 body header {
   height: 100vh;
@@ -97,7 +103,6 @@ body header .wrapper-content hr {
 }
 body section .wrapper-content {
   position: relative;
-  height: 100%;
 }
 body section .wrapper-content .o-cont-absolute {
   width: 100%;
@@ -106,9 +111,16 @@ body section .wrapper-content .o-cont-absolute {
   left: 0;
 }
 body section .wrapper-content .o-cont-absolute .bias {
-  margin-top: 20%;
+  padding-top: 3rem;
+  padding-left: 3rem;
 }
-body section.main-directions .lighter {
+body section .wrapper-content .o-cont-absolute .bias p.about-me {
+  line-height: 2rem;
+  font-size: 1.3rem;
+  padding: 2rem;
+  world-wrap: break-world;
+}
+body section.about-me-block .lighter {
   background-color: #2d2e2e;
 }
 

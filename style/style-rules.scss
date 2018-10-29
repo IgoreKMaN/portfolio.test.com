@@ -19,16 +19,22 @@ body{
 		height: 50vh;
 	}
 
-	.container-darker{
+	.container-darker, .darker{
 		background-color: $darker;
 	}
-	.container-lighter{
+	.container-lighter, lighter{
 		background-color: $lighter;
 	}
 
-	.o-section-content{
+	.pos5{
 		position: relative;
-		z-index: 5;
+		z-index: 20;
+	}
+	.wrapper-content{
+		color: #fff;
+	}
+	h2{
+		margin: 0;
 	}
 
 	header{
@@ -117,19 +123,25 @@ body{
 	section{
 		.wrapper-content{
 			position: relative;
-			height: 100%;
 			.o-cont-absolute{
 				width: 100%;
 				position: absolute;
 				top: 0;
 				left: 0;
 				.bias{
-					margin-top: 20%
+					padding-top: 3rem;
+					padding-left: 3rem;
+						p.about-me{
+							line-height: 2rem;
+							font-size: 1.3rem;
+							padding: 2rem;
+							world-wrap: break-world;
+						}
 				} 
 			}
 		}
 
-		&.main-directions{
+		&.about-me-block{
 			.lighter{
 					background-color: $lighter;
 				}

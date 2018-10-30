@@ -22,7 +22,7 @@ body{
 	.container-darker, .darker{
 		background-color: $darker;
 	}
-	.container-lighter, lighter{
+	.container-lighter, .lighter{
 		background-color: $lighter;
 	}
 
@@ -131,6 +131,21 @@ body{
 				.bias{
 					padding-top: 3rem;
 					padding-left: 3rem;
+						.item-skills{
+							.progressing-bar{
+								width: 100%;
+								height: 10px;
+								background-color: #404242;	
+								.progressing-bar-in{
+									width: 0;
+									transition: width 1.4s ease-in-out .5s;
+									height: 100%;
+									background-color: #e0a80d;
+								}
+							}
+							
+
+						}
 						p.about-me{
 							line-height: 2rem;
 							font-size: 1.3rem;
@@ -141,10 +156,7 @@ body{
 			}
 		}
 
-		&.about-me-block{
-			.lighter{
-					background-color: $lighter;
-				}
-		}
+		
 	}
+
 }

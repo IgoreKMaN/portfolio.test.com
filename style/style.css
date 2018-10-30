@@ -20,7 +20,7 @@ body .container-content-next {
 body .container-darker, body .darker {
   background-color: #2b2c2c;
 }
-body .container-lighter, body lighter {
+body .container-lighter, body .lighter {
   background-color: #2d2e2e;
 }
 body .pos5 {
@@ -114,14 +114,22 @@ body section .wrapper-content .o-cont-absolute .bias {
   padding-top: 3rem;
   padding-left: 3rem;
 }
+body section .wrapper-content .o-cont-absolute .bias .item-skills .progressing-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #404242;
+}
+body section .wrapper-content .o-cont-absolute .bias .item-skills .progressing-bar .progressing-bar-in {
+  width: 0;
+  transition: width 1.4s ease-in-out 0.5s;
+  height: 100%;
+  background-color: #e0a80d;
+}
 body section .wrapper-content .o-cont-absolute .bias p.about-me {
   line-height: 2rem;
   font-size: 1.3rem;
   padding: 2rem;
   world-wrap: break-world;
-}
-body section.about-me-block .lighter {
-  background-color: #2d2e2e;
 }
 
 /*# sourceMappingURL=style.css.map */

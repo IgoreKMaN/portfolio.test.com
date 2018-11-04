@@ -1,0 +1,448 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	//font-family: "Open Sans";
+	font-family: sans-serif;
+}
+
+.okno{
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: rgba(20, 10, 5, .85);
+	
+	display: none;
+}
+
+.modal_window{
+	margin: 0 auto;
+	background-color: rgba(20, 10, 5, .8);
+	
+	border-radius: 10px;
+	height: 90vh;
+	z-index: 1020;
+	
+}
+
+.callback_item>p{
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.callback_item>p>span{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #1F75FE;
+}
+
+.callback_item{
+	margin-top: 10px;
+}
+
+.callback_item:first-child{
+	//margin-top: 30px;
+}
+
+.callback_item input, .callback_item textarea{
+	font-size: 2em;
+	//border: none;
+	outline: thick;
+	width: 100%;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+.callback_item textarea{
+	resize: none;
+}
+
+.callback_item input[type="submit"]{
+	border-radius: 7px;
+	background-color: #122FAA;
+	color: #fff;  
+	transition: 0.8s;
+	
+	
+}
+
+.callback_item input[type="submit"]:hover{
+	background-color: rgba(18, 47, 170, .7);
+	color: #fff;  
+}
+
+.menu{
+	//background-color: #99958C;
+	border: 1px solid silver;
+	position: fixed;
+	width: 100%;
+	height: 15%;
+	z-index: 2;
+}
+
+.menu .logo{
+	width: 8%;
+	float: left;
+}
+
+.menu .logo img{
+	width: 100%;
+	
+}
+
+.menu .text-tel{
+	
+	font-size: 2em;
+	width: 35%;	
+	float: right;
+	line-height: 1.1em;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 1%;
+	margin-top: 2%;
+	color: #4169E1;
+	text-shadow: 2px 1px 1px #000 ;
+	
+}
+
+.header{
+	width: 100%;
+	background-image: url('../img/fon.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header_text{
+	margin: 25% auto 0 auto;
+}
+
+.header_text h3{
+	font-family: "CENTURY GOTHIC";
+	font-size: 3.4em ;
+	font-weight: bold;
+	color: #A6BDD7;
+	text-shadow: 2px 4px 3px black, 4px 6px 1px white;
+	text-align: center;
+}
+
+.request{
+	width: 70%;
+	border: 1px solid #fff;
+	background-color: rgba(8, 100, 222, .2);
+	border-radius: 50px;
+	margin: 10% auto;
+	cursor: pointer;
+	text-align:center;
+	
+	}
+
+.request>p{
+	font-size: 2em;
+	margin: 0;
+}
+
+.request:hover{
+	background-color: rgba(8, 232, 222, .5);
+}
+
+
+.content{
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.content .text p{
+	font-size: 1.45em;
+}
+
+.content img{
+	width: 100%
+}
+
+ .counter {
+	border: 1px solid #7DF9FF;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	
+}
+
+.counter1{
+	display:none;
+}
+
+.container-fluid .counter, .container-fluid .counter1 {
+	width: 100%;
+	
+}
+
+.counter i, .counter1 i {
+	font-size: 8em;
+	color: #31cfc9;
+}
+
+.count, .counted {
+	display:inline-block;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-count, .text-count1{
+	text-align: center;
+	font-size: 1.7em;
+}
+.text-count1{
+	margin-top: 15px;
+}
+
+.text-count1{
+	font-size:2em;
+	text-transform: uppercase;
+}
+
+.lab{
+	text-align: center;
+
+}
+
+.reviews{
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	overflow: hidden;	
+}
+
+
+.reviews .img img{
+	width: 100%;	
+} 
+
+.reviews .text{
+	margin-top: 3%;
+}
+
+.reviews .text p{
+	font-size: 2.2em;
+	display: inline-block;
+	line-height: 1.8em;
+}
+
+.reviews i.fa{
+	font-size: 3em;
+	margin-right: 10%;
+	color: #7df9ff;
+	display: inline-block;
+	float: left;
+}
+
+.brands{
+	margin: 20px 0 ;
+	overflow: hidden;
+}
+
+.brand, .brand-caption{
+	display: inline-block;
+	text-align: center;
+	font-size: 1.6em;
+	//background-color: rgba(125, 249, 255, .4);
+	margin-top: 10px;
+	border-radius: 30px;
+	line-height: 40px;
+	border: 1px solid #7DF9FF;
+}
+
+.brand p{
+	white-space: nowrap;
+    overflow: hidden;
+}
+
+.feedback{
+	margin: 20px 0px;
+}
+
+.feedback  h2{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+
+.back input{
+	margin: 5px 0;
+	
+	
+}
+
+.back input, .back textarea{
+	font-size: 1.4em;
+	//border: none;
+	outline: thick;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #31cfc9;
+}
+
+.back textarea{
+	resize: none;
+}
+
+.back3{
+	display: block;
+}
+
+.back input[type="submit"]{
+	//border-radius: 5px 30px;
+	margin:0 auto;
+	background-color: transparent;
+	transition: .5s;
+}
+
+.back input[type="submit"]:hover{
+	trasition: 1s;
+	background-color: rgba(199, 252, 236, .3);
+}
+
+.filter img{
+	width: 100%;
+}
+
+.footer{
+	background-color: rgba(201, 192, 187, .2);
+	padding: 1% 0 ;
+}
+
+.contacts1{
+	margin: 1% 0;
+}
+
+.contacts1, .contacts2{
+	text-align: center;
+}
+
+.contacts1 p, .contacts2 p{
+	font-size: 1.4em;
+}
+
+.chevron-up{
+	position: fixed;
+	bottom: 5%;
+	right: 2%;
+	border: 1px solid silver;
+	background-color: rgba(0,0,0, .1);
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	//transition: 1s;
+	cursor: pointer;
+	text-align: center;
+	line-height: 60px;
+	z-index: 100;
+	//opacity: 0;
+	display: none;
+	
+}
+
+.chevron-up:hover{
+	background-color: rgba(255,255,255, .8);
+	opacity: 1;
+}
+
+.chevron-up>i{
+	font-size: 3.5em;
+	color: #256;
+	
+}
+
+@media screen  and (max-width: 992px ){
+	
+}
+
+@media screen  and (max-width: 768px ){
+	i.text-icon{
+		font-size: 5em;
+	}
+	.text-count1{
+		font-size: 1em;
+	}
+	.reviews .text p{
+	font-size: 1.7em;
+	display: inline-block;
+	//border: 1px solid green;
+	line-height: 1.5em;
+}
+.counter i, .counter1 i {
+	font-size: 5em;
+}
+
+.text-count, .text-count1{
+	font-size: .9em;
+}
+
+.brand-caption{
+	font-size: 1.6em;
+	line-height: 30px;
+}
+
+.menu .logo{
+	width: 35%;
+}
+.menu .text-tel{
+	font-size: 1.4em;
+	
+}
+
+.header_text h3{
+	font-size: 2.5em ;
+}
+}
+
+@media screen  and (max-width: 320px ){
+	i.text-icon{
+		font-size: 5em;
+	}
+	.text-count1{
+		font-size: 1em;
+	}
+	.reviews .text p{
+	font-size: 1.7em;
+	display: inline-block;
+	//border: 1px solid green;
+	line-height: 1.5em;
+}
+.counter i, .counter1 i {
+	font-size: 5em;
+}
+
+.text-count, .text-count1{
+	font-size: .9em;
+}
+
+.brand-caption{
+	font-size: 1.6em;
+	line-height: 30px;
+}
+
+.header_text{
+	margin: 25% auto 0 auto;
+}
+
+.header_text h3{
+	font-family: "CENTURY GOTHIC";
+	font-size: 1.4em ;
+	font-weight: bold;
+	color: #A6BDD7;
+	text-shadow: 2px 4px 3px black, 4px 6px 1px white;
+	text-align: center;
+}
+}

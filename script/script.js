@@ -8,4 +8,8 @@ $(document).ready(function(){
 			$(".progressing-bar-in").css({"width": "70%"});		
 		}
 	})
+
+	$(".o-section-header").height(100%);
+	
+
 })

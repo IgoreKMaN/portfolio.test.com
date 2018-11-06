@@ -94,7 +94,18 @@ body{
 							color: #e0a80d;
 						}
 					}
-					.contact-details{
+					
+				}
+				hr{
+					border: 1px solid #404242;
+					margin-top: 20%;
+				}
+				
+
+		}
+	}
+
+.contact-details{
 						color: #fff;
 						text-align: center;
 						ul{
@@ -108,16 +119,6 @@ body{
 							}
 						}
 					}
-				}
-				hr{
-					border: 1px solid #404242;
-					margin-top: 20%;
-				}
-				
-
-		}
-	}
-
 	
 
 	section{
@@ -157,6 +158,26 @@ body{
 		}
 
 		
+	}
+
+	.portfolio{
+		height: 85vh;
+		img{
+			width: 100%;
+		}
+	}
+
+	.contact{
+		height: 30vh !important;
+		.container-header-next, .container-content-next{
+			height: 100%;
+			.o-section-header{
+				height: 100% !important;
+			}
+		}
+
+		
+
 	}
 
 }

@@ -1,0 +1,179 @@
+﻿
+
+<html>
+	<head>
+		<title>
+			DeshaIT
+		</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/style1.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="icon" href="img/fv.png" type="image/x-icon" /> 
+
+		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script type="text/javascript" src='script.js'></script>
+		<script>
+			jQuery(document).ready(function($) {
+			    
+			    
+				$('.feed_back').click(function () {
+
+					$('.feed_back_message').animate({
+					'left': '81%'},1000);
+
+					$('.feed_back').animate({
+					'left': '20%'},1000);
+				});	
+
+					
+				$('.feed_back_message').on("click" , ".close",function () {
+						
+					$('.feed_back_message').animate({
+					'left': '110%'},1000);
+
+					$('.feed_back').animate({
+					'left': '0%'},1000);
+
+				});	
+		
+
+			});
+		</script>
+
+	</head>
+	<body>
+		
+	<div class="page1">
+		<div class="logo_wrap">
+			<div class="logo"></div>
+		</div>
+
+		<div class="text_planet">
+			<div class="p_text p_text1">Главная</div>
+			<div class="p_text p_text2">Услуги</div>
+			<div class="p_text p_text3">Портфолио</div>
+			<div class="p_text p_text4">Блог</div>
+			<div class="p_text p_text5">Контакты</div>
+			<div class="p_text"></div>
+		</div>
+
+		 <div class="line">
+		 	
+		 	<div class="planet">
+
+		 	<a href="index.php" class="plan plan1"></a>
+		 	
+		 	<a href="index.php" class="planet planet1">
+		 		
+		 	</a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="services.php" class="plan plan2"></a>
+		 	<a href="services.php" class="planet planet2">
+		 		
+		 	</a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class=" plan plan3"></a>
+		 	<a href="#" class="planet planet3"></a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class="plan plan4"></a>
+		 	<a href="#" class="planet planet4"></a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class=" plan plan5"></a>
+		 	<a href="#" class="planet planet5"></a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class="plan plan6"></a>
+		 	<a href="#" class="planet planet6"></a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class="plan plan7"></a>
+		 	<a href="#" class="planet planet7"></a>
+		 	</div>
+
+		 	<div class="planet">
+		 	<a href="#" class="plan plan8"></a>
+		 	<a href="#" class="planet planet8"></a>
+		 	</div>
+		 </div>
+
+		 <div class="rocket_wrap">
+		 	<div class="rocket"></div>
+		 	<a href="#">Вход</a>
+		 </div>
+		 <div class="clearfix"></div>
+		 
+		 <div class="content">
+		 <div class="arrow"></div>
+		 	<div class="content_text">
+		 		<p class="caption">Создание самых смелых проектов</p>
+				<p class="text">в области технической <br/>разработки</p>
+
+		 	</div>
+		 </div>
+
+
+		 <div class="social">
+		 	<a href="http://facebook.com"  target="_blank">
+		 		<img src="img/36.png" alt="">
+		 	</a>
+		 	<a href="https://vk.com/desha_it" target="_blank">
+		 		<img src="img/35.png" alt="">
+		 	</a>
+		 	<a href="https://www.instagram.com" target="_blank">
+		 		<img src="img/34.png" alt="">
+		 	</a>
+		 </div>
+		
+		<div class="phone">
+			+375 29 209 77 22
+		</div>
+
+			<div class="feed_back_message">
+			<div class="close">x</div>
+			<h4>Свяжитесь с нами</h4>
+			<form action="/index.php" method="post" name="frm_feedback">
+				<div class="form_group">
+					<input type="text" name="name" id="name" placeholder="Имя">
+				</div>
+				
+				<div class="form_group">
+					<input type="phone" id="tel" name="tel" placeholder="Телефон">	
+				</div>
+
+				<div class="form_group">
+					
+					<input type="email" id="email" name="email" placeholder="E-mail">	
+				</div>
+
+				<div class="form_group">
+					
+					<textarea name="message" id="message" cols="27" rows="7" placeholder="Сообщение"></textarea>	
+				</div>
+				<div class="form_group">
+				<input type="submit" name="feed_back_submit" value="Связаться">
+				</div>
+			</form>
+			</div>
+		
+		<div class="feed_back off">
+			<a href="#">
+				Связаться
+			</a>
+		</div>
+
+		<div class="create_site"><p>Создай <br/>сайт</p></div>
+	</div>
+
+	</body>
+</html>

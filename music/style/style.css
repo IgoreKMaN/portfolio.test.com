@@ -1,0 +1,571 @@
+@font-face{
+
+font-family: 'montserrat-bold';
+
+src: url('../fonts/montserrat-bold.woff') format('woff'),
+
+url('../fonts/montserrat-bold.ttf') format('truetype');
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'montserrat-regular';
+
+src: url('../fonts/montserrat-regular.woff') format('woff'),
+
+url('../fonts/montserrat-regular.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+body{
+	background: linear-gradient(to top, #000000, #0a2345);
+}
+
+p, h2, h3, h4{
+	font-family: montserrat-regular;
+}
+
+h2{
+	font-size: 2.3rem;
+}
+
+header .top{
+	margin-top: 10px;
+}
+
+.menu ul{
+	text-align: right;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-right: 50px;
+	line-height: 60px;
+}
+
+.menu ul li:last-child{
+	margin-right: 0;
+}
+
+.menu ul li a{
+	color: #fff;
+	font-family: montserrat-bold;
+	font-size: 1.25rem;
+}
+
+.menu ul li a.active{
+	border: 1px solid #fff;
+	padding: 10px;
+}
+
+.menu-bars{
+	display: none;
+}
+
+.mobile-menu{
+	display: none;
+}
+
+section .coeluso{
+	color: #fff;
+	text-align: center;
+	margin-top: 155px;
+}
+
+section .coeluso h2{
+	margin-bottom: 40px;
+}
+
+span.coelusmo-title{
+	color: #2a5da3;
+}
+
+section .coeluso p{
+	font-family: montserrat-regular;
+	font-size: 1.13rem;
+}
+
+section .coeluso .button{
+	margin-top: 105px;
+	margin-bottom: 35px;
+}
+
+section .coeluso .button a{
+	color: #fff;
+	padding: 25px 30px 20px;
+	border-radius: 40px;
+	border: 2px solid #153b6d;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+section .coeluso .button a:hover{
+	background-color: #163053;
+}
+
+section.app{
+	background-image: url(../img/VectorSmartObject.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+section .coeluso-music-app{
+	margin-top: 240px;
+	margin-bottom: 80px;
+}
+
+section .coeluso-music-app .item-left{
+	text-align: left;
+}
+
+section .coeluso-music-app .item-center{
+	text-align: center;
+	position: relative;
+	top: -40px;
+}
+
+section .coeluso-music-app .item-right{
+	text-align: right;
+}
+
+section .coeluso-music-app .music-item img{
+	box-shadow: 0px 0px 40px 5px rgba(0,0,0,.5);
+	transition: all 0.5s;
+	width: 100%;
+}
+
+section .coeluso-music-app .music-item img:hover{
+	transform: scale(1.2);
+}
+
+section.headphones{
+	background-image: url(../img/Headphones.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+}
+
+section.headphones .block-headphones{
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+section.headphones .item-headphones h2{
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+section.headphones .item-headphones p{
+	color: #66778e;
+	line-height: 2rem;
+}
+
+.item-headphones .button{
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+
+.item-headphones .button a{
+	color: #fff;
+	padding: 20px 55px;
+	border-radius: 40px;
+	border: 2px solid #153b6d;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.item-headphones .button a:hover{
+	background-color: #163053;
+}
+
+.news-app{
+	margin-top: 90px;
+}
+
+
+.news-app .news-app-img{
+	background-image: url(../img/phone-news.png);	
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	margin-top: 140px;
+}
+
+.news-app h2{
+	text-align: center;
+	color: #fff;
+}
+
+.news-app .title-and-item{
+	color: #fff;
+	background-repeat: no-repeat;
+	transition: all .5s;
+}
+
+.news-app .title-and-item:hover{
+	background-position: top right;
+}
+
+.news-app .spiker{
+	background-image: url(../img/Speaker-mini.png);
+}
+
+.news-app .headphones{
+	background-image: url(../img/Headphones-mini.png);
+}
+
+.news-app .activity{
+	background-image: url(../img/Activity-mini.png);	
+}
+
+.news-app .cd{
+	background-image: url(../img/CD-mini.png);	
+}
+
+.news-app .activity,
+.news-app .cd{
+	margin-top: 50px;
+}
+
+.news-app .title-and-item{
+	padding-top: 15%; 
+}
+
+.news-app .title-and-item p,
+.about-app .item-about-app p{
+	 font-size: 0.9rem;
+	 line-height: 30px;
+}
+
+.about{
+	background-image: url(../img/Graphic.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	-webkit-background-size: 70%;
+		background-size: 70%;
+	margin-top: 8%;
+	padding: 10% 0 25%; 	
+}
+
+.about-app{
+	color: #fff;
+}
+
+.about-app .item-about-app{
+	padding-top: 15%;
+}
+
+.about-app .icon{
+	background-image: url(../img/Icon-mini.png);
+	background-repeat: no-repeat;
+	transition: all .5s;
+}
+
+.about-app .icon:hover{
+	background-position: top right;
+}
+
+
+#slider{
+	width:100%;
+ 	height:400px;
+ 	position: relative;
+ 	overflow:hidden;
+	background-image: url(../img/bgslider.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.slides{
+  width:500%;
+  height:100%;
+  transition: all 0.5s;
+}
+
+.slider-item{
+	width: 20%;
+ 	float: left;
+ 	position: relative;
+ 	z-index: 1;
+ 	overflow: hidden;
+ 	margin-top: 2%;
+}
+
+.slid{
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+.radio-button{
+	position: absolute;
+	left: calc(50% - 100px);
+	bottom: 10%;
+	margin: 0 auto;
+}
+
+#slider input[type="radio"]{
+	display: none;
+}
+
+.radio-button label{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	border: 1px solid #335a95;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.radio-button label:hover{
+	background-color: #335a95;
+}
+
+section #slide1:checked ~ .radio-button label[for="slide1"],
+section #slide2:checked ~ .radio-button label[for="slide2"],
+section #slide3:checked ~ .radio-button label[for="slide3"],
+section #slide4:checked ~ .radio-button label[for="slide4"],
+section #slide5:checked ~ .radio-button label[for="slide5"]{
+	background-color: #335a95;
+
+}
+
+#slider #slide1:checked ~ .slides{
+	margin-left: 0;
+}
+
+#slider #slide2:checked ~ .slides{
+	margin-left: -100%;
+}
+
+#slider #slide3:checked ~ .slides{
+	margin-left: -200%;
+}
+
+#slider #slide4:checked ~ .slides{
+	margin-left: -300%;
+}
+
+#slider #slide5:checked ~ .slides{
+	margin-left: -400%;
+}
+
+.slider-item .text-slider{
+	font-size: 1.5rem;
+}
+
+.slider-item .text-slider,
+.slider-item .photo-slider .name-human{
+	color: #66778e;
+
+}
+
+.slider-item .photo-slider{
+	margin-top: 8%;
+	margin-bottom: 2%;
+	color: #213a61;
+    font-size: 0.9rem;	
+}
+
+.slider-item .photo-slider .name-human{
+	background-image: url(../img/photo-slider1.png);
+    background-repeat: no-repeat;
+    padding: 2.2% 0 2.2% 10%;
+}
+
+.bottom-page{
+	margin-bottom: 10%;
+}
+
+.bottom-page .bottom-box{
+	margin-top: 10%;
+	text-align: center;	
+}
+
+.bottom-page .bottom-box h2{
+	color: #fff;
+}
+
+.bottom-page .bottom-box p{
+	color: #617189;
+	line-height: 30px;
+}
+
+.bottom-page .bottom-box .bottom-item{
+	margin-top: 70%;
+}
+
+.bottom-page .bottom-box .bottom-item img{
+	width: 100%;
+}
+
+.bottom-page .bottom-box .item-right{
+	text-align: right;
+}
+
+.bottom-page .bottom-box .item-center{
+	text-align: center;
+	position: relative;
+	top: -100px;
+}
+
+.bottom-page .download-our-app{
+	margin-top: 8%;
+	position: relative;
+}
+
+.bottom-page .download-our-app a{
+	position: absolute;
+	top: 0;
+	left: calc(50% - 100px);
+	text-decoration: none;
+	border: 2px solid #213a61;
+	border-radius: 50px;
+	padding: 20px 30px;
+	color: #fff;
+	transition: all .5s;
+}
+
+.bottom-page .download-our-app a:hover{
+	//font-size: 2rem;
+	transform: scale(2);
+}
+
+.bottom-page .bottom-box .item-left{
+	text-align: left;
+}
+
+footer .footer{
+	border-top: 1px solid #213a62;
+	padding: 5% 0 10%;
+}
+
+footer .menu ul{
+	text-align: left;
+}
+
+footer .menu li{
+	line-height: 0;
+}
+
+footer .menu li a{
+	color: #14396a;
+	font-size: 1rem; 
+}
+
+footer .menu li a.active{
+	border: 1px solid #14396a;
+}
+
+footer .copyright p{
+	text-align: right;
+	color: #14396a;
+}
+
+
+@media (max-width: 1199px) {
+	.menu ul li a{
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 991px){
+.menu-none{
+	display: none;
+}
+
+.menu-bars{
+	display: block;
+	text-align: right;
+	margin: 2% 0;
+}
+
+.menu-bars i{
+	color: #fff;
+	font-size: 3rem;
+}
+
+.mobile-menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	background-color: #2a5da3;
+	width: 100vw;
+	height: 100vh;
+}
+
+.mobile-menu ul{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.mobile-menu ul li{
+	margin: 4% 0
+}
+
+.mobile-menu ul li a{
+	color: #fff;
+	font-size: 3rem;
+}
+
+.mobile-menu i{
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	font-size: 3rem;
+}
+
+section .coeluso-music-app {
+    margin-top: 120px;
+}
+
+.about{
+	padding-bottom: 15%;
+}
+
+footer .copyright{
+	padding-top: 3%;
+}
+
+footer .copyright p{
+	text-align: center;
+}
+
+}
+
+@media (max-width: 767px){
+.news-app .title-and-item{
+	padding-left: 3%;
+	padding-right: 3%;
+	background-position: center top;
+}
+
+.about {
+   -webkit-background-size: 90%;
+    background-size: 90%;
+}
+
+.slid{
+	width: 80%;
+}
+footer .menu ul{
+	text-align: center;
+}
+}

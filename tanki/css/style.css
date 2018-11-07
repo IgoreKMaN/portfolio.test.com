@@ -1,0 +1,251 @@
+//@import url(http://allfont.ru/allfont.css?fonts=colonna-mt);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+h1, h2, h3, p, td, th{
+	font-family: 'War_is_Over', arial, sans-serif;
+}
+
+header{
+	width: 100%;
+	background-image: url('../img/1408623252_yselb4ystqo.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center top;
+}
+
+@font-face {
+    font-family: Colonna-MT; /* Имя шрифта */
+    src: url(../fonts/COLONNA.TTF); /* Путь к файлу со шрифтом */
+   }
+
+.caption_top h1{
+	//color: #35bde2;
+	color: #FFF;
+	font-size: 3.2em;
+	font-family: 'Colonna-MT', arial, sans-serif;
+	margin: 10px 0 0 0;
+	padding: 0;
+	line-height: 70%;
+	
+	
+}
+
+@font-face {
+    font-family: War_is_Over; /* Имя шрифта */
+    src: url(../fonts/10930.otf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: Colonna-MT; /* Имя шрифта */
+    src: url(../fonts/COLONNA.TTF); /* Путь к файлу со шрифтом */
+   }
+
+.name_klan h1{
+	width: 100%;
+	font-family: 'Colonna-MT', arial, sans-serif;
+	font-size: 12em;
+	margin: 10% auto;
+	color: #FFF;
+	text-shadow: 2px 2px 2px red, 3px 3px 2px black;
+	text-align: center;
+	
+}
+
+.logo{
+	//border: 1px solid red;
+	width: 20%;
+	//background-image: url(/clans/media/clans/emblems/cl_420/207420/emblem_195x195.png);
+}
+.logo img{
+	width: 100%;
+}
+
+h2{
+	font-size: 3.8em;
+}
+
+.section{width: 100%;}
+
+.in_klan{
+	//border: 1px solid red;
+	margin-bottom: 5%;
+	position: relative;
+	overflow: hidden;
+}
+
+.in_klan img{
+	width: 100%;
+}
+
+.in_klan .description{
+	width: 100%;
+	padding: 0 5% ;
+	background-color: rgba(0,0,0,.2);
+	position: absolute;
+	bottom: -23%;
+	color: #FFF;
+	-webkit-transition: .5s;
+	   -moz-transition: .5s;
+	    -ms-transition: .5s;
+	     -o-transition: .5s;
+	        transition: .5s;
+}
+
+.in_klan:hover .description{
+	bottom: 0%;
+	-webkit-transition: .5s;
+	   -moz-transition: .5s;
+	    -ms-transition: .5s;
+	     -o-transition: .5s;
+	        transition: .5s;
+}
+
+.in_klan .description h3{
+	font-size: 3em;
+}
+
+.in_klan .description p{
+	font-size: 1.5em;
+}
+
+.klan_statistic{
+	text-align: center;
+}
+
+.all_stat_klan p{
+	font-size: 1.6em;
+	color: #d23232;
+}
+
+.reid table{
+	width: 100%;
+}
+.reid td,
+.reid th{
+	text-align: center;
+}
+
+.reid th{
+	font-size: 2.2em;
+}
+
+.reid td{
+	font-size: 1.2em;
+	color: #d23232
+}
+/*
+.reid{
+	text-align: center;
+}
+
+
+
+.vilazki .info .reid p{
+	font-size: 1.6em;
+	color: #d23232;
+}*/
+
+footer{
+	width: 100%;
+	height: 50vh;
+	background-image: url('../img/maxresdefault.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: 0% 55%;
+}
+
+footer .description{
+	font-family: arial, sans-serif;
+	color: #E7E3DA;
+}
+
+footer .description h3{
+	font-size: 2.2em;
+}
+
+footer .description p, footer .description li{
+	font-family: arial, sans-serif;
+	font-size: 1.4em;
+}
+
+@media screen  and (max-width: 992px ){
+	
+}
+
+@media screen  and (max-width: 768px ){
+	.name_klan h1{
+		font-size: 3em;
+	}
+
+	footer .description h3{
+		font-size: 0.8em;
+	}
+
+	footer .description p, footer .description li{
+		font-size: 0.8em;
+	}
+	.container{
+		width: 100%;
+	}
+
+	.vilazki .info .reid p{
+		font-size: 1em;
+	}
+
+	.our_klan h2{
+		font-size: 3.3em;
+	}
+	.reid th{
+		font-size: 1.8em;
+	}
+
+	.logo img{
+		//width: 20%;
+	}
+}
+
+@media screen  and (max-width: 320px ){
+	.name_klan h1{
+		font-size: 3em;
+	}
+
+	footer .description h3{
+		font-size: 0.8em;
+	}
+
+	footer .description p, footer .description li{
+		font-size: 0.8em;
+	}
+	.container{
+		width: 100%;
+	}
+
+	.vilazki .info .reid p{
+		font-size: 1em;
+	}
+
+	.our_klan h2{
+		font-size: 3.3em;
+	}
+	.reid th{
+		font-size: 1.8em;
+	}
+}

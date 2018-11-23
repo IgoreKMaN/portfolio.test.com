@@ -147,4 +147,28 @@ body .contact .container-header-next .o-section-header, body .contact .container
   height: 100% !important;
 }
 
+.o-section-content {
+  margin-botom: 5%;
+}
+.o-section-content .item-experience {
+  height: 100px;
+}
+.o-section-content .item-experience h3 {
+  margin-top: 0;
+  color: #e0a80d;
+  text-shadow: 0 0 20px #000000;
+}
+
+.skills .item-skills {
+  margin-bottom: 26%;
+  font-size: 1.1em;
+}
+.skills .item-skills p {
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+.skills .item-skills p span {
+  margin-right: 3%;
+}
+
 /*# sourceMappingURL=style.css.map */

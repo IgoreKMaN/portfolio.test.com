@@ -181,3 +181,30 @@ body{
 	}
 
 }
+
+.o-section-content{
+	margin-botom: 5%;
+	.item-experience{
+		height: 100px;
+		h3{
+			margin-top: 0;
+			color: #e0a80d;
+			text-shadow: 0 0 20px #000000;
+		}
+	}
+}
+
+.skills{
+	.item-skills{
+		margin-bottom: 26%;
+		font-size: 1.1em;
+		p{
+			text-transform: uppercase;
+			margin-bottom: 3%;
+			span{
+					margin-right: 3%;
+				}
+		}
+		
+	}
+}

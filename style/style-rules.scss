@@ -164,8 +164,21 @@ body{
 		height: 85vh;
 		img{
 			width: 100%;
+			position: relative;
+			&:before{
+				content: "";
+				background-color: rgba(0,0,0,.5);
+				position: absolute;
+				width: 100%;
+				height: 300px;
+			}
+			&:hover{
+
+			}
 		}
 	}
+
+
 
 	.contact{
 		height: 30vh !important;

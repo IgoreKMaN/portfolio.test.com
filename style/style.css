@@ -136,7 +136,9 @@ body .portfolio {
 }
 body .portfolio img {
   width: 100%;
+  position: relative;
 }
+
 body .contact {
   height: 30vh !important;
 }

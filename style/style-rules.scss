@@ -160,20 +160,31 @@ body{
 		
 	}
 
-	.portfolio{
+	.portfolio{overflow: hidden;
 		height: 85vh;
-		img{
-			width: 100%;
+		.item-portfolio{
 			position: relative;
-			&:before{
-				content: "";
-				background-color: rgba(0,0,0,.5);
-				position: absolute;
+			overflow: hidden;
+			img{
 				width: 100%;
-				height: 300px;
+				&:hover + .background {
+					left:0;
+				}
 			}
-			&:hover{
-
+			.background{
+				width: 100%;
+				background-color: rgba(0, 0, 0, .5);
+				position: absolute;
+				left: 100%;
+				top: 0;
+				z-index: 2;
+				transition: left 1s;
+				&:hover{
+					left:0;
+				}
+				.content{
+					margin: 5%;
+				}
 			}
 		}
 	}

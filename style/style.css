@@ -132,13 +132,34 @@ body section .wrapper-content .o-cont-absolute .bias p.about-me {
   world-wrap: break-world;
 }
 body .portfolio {
+  overflow: hidden;
   height: 85vh;
 }
-body .portfolio img {
-  width: 100%;
+body .portfolio .item-portfolio {
   position: relative;
+  overflow: hidden;
 }
-
+body .portfolio .item-portfolio img {
+  width: 100%;
+}
+body .portfolio .item-portfolio img:hover + .background {
+  left: 0;
+}
+body .portfolio .item-portfolio .background {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 100%;
+  top: 0;
+  z-index: 2;
+  transition: left 1s;
+}
+body .portfolio .item-portfolio .background:hover {
+  left: 0;
+}
+body .portfolio .item-portfolio .background .content {
+  margin: 5%;
+}
 body .contact {
   height: 30vh !important;
 }

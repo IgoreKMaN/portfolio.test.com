@@ -31,4 +31,7 @@ $(document).ready(function(){
 		}
 	})	
 
+	var backgroundHeight =  $(".portfolio .item-portfolio img").height();
+	$(".portfolio .background").height(backgroundHeight);
+
 })

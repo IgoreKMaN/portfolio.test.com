@@ -15,7 +15,7 @@ body .container-content-next {
 }
 body .container-header-next,
 body .container-content-next {
-  height: 50vh;
+  height: 400px;
 }
 body .container-darker, body .darker {
   background-color: #2b2c2c;
@@ -136,6 +136,7 @@ body .portfolio {
   height: 85vh;
 }
 body .portfolio .item-portfolio {
+  margin-bottom: 10%;
   position: relative;
   overflow: hidden;
 }
@@ -147,7 +148,7 @@ body .portfolio .item-portfolio img:hover + .background {
 }
 body .portfolio .item-portfolio .background {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   left: 100%;
   top: 0;
@@ -159,6 +160,15 @@ body .portfolio .item-portfolio .background:hover {
 }
 body .portfolio .item-portfolio .background .content {
   margin: 5%;
+}
+body .portfolio .item-portfolio .background .content p {
+  margin-top: 3%;
+}
+body .portfolio .item-portfolio .background .content p a {
+  color: #e0631b;
+}
+body .portfolio .item-portfolio .background .content p span {
+  color: #fcba04;
 }
 body .contact {
   height: 30vh !important;

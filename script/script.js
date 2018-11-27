@@ -2,6 +2,8 @@ $(document).ready(function(){
 	var height_block = $(".container-header-next").height();
 	$("section .o-section-header, section .o-section-content").height(height_block);
 
+	$("section.portfolio .o-section-header, section.portfolio .o-section-content, section.portfolio .container-header-next, section.portfolio .container-content-next").height(600);
+
 	var scrollCss = $(".css").offset().top - $(".css").width(); 
 		
 	$(document).scroll(function(){

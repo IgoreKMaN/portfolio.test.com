@@ -160,8 +160,8 @@ body{
 		
 	}
 
-	.portfolio{overflow: hidden;
-		height: 85vh;
+	.portfolio{
+		overflow: hidden;
 		.item-portfolio{
 			margin-bottom: 10%;
 			position: relative;
@@ -202,11 +202,14 @@ body{
 
 
 	.contact{
-		height: 30vh !important;
+
+		.o-section-content, .o-section-header,.container-header-next, .container-content-next{
+			height: 150px !important;	
+		}
 		.container-header-next, .container-content-next{
 			height: 100%;
 			.o-section-header{
-				height: 100% !important;
+				//height: 100% !important;
 			}
 		}
 
@@ -241,4 +244,55 @@ body{
 		}
 		
 	}
+}
+
+@media(max-width: 991px){
+	section{
+		.wrapper-content{
+			.o-cont-absolute{
+				.bias{
+					padding-left: 0 !important;
+				}
+			}
+		} 
+	}
+
+	.experience{
+		.o-section-content, .o-section-header,.container-header-next, .container-content-next{
+			height: 700px !important;	
+		}
+	}
+
+	.skills{
+		.o-section-content, .o-section-header,.container-header-next, .container-content-next{
+			height: 450px !important;	
+		}
+		.item-skills{
+			margin-bottom: 5%;
+		}
+	}
+
+	.portfolio{
+		.o-section-content, .o-section-header,.container-header-next, .container-content-next{
+			height: 1600px !important;	
+		}
+	}
+
+	body{
+		section.contact{
+			.o-section-content, .o-section-header,.container-header-next, .container-content-next{
+				height: 300px !important;	
+			}
+		}
+		.contact-details{
+			ul{
+				li{
+					&:nth-child(2){
+						margin: 3% 0 6%;
+					}
+				}
+			}
+		}
+	}
+
 }
